@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.46</version>
+    <version>2020.47</version>
     <author>Kenny Robinson</author>
     <author-email/>
     <author-website>https://thealmostengineer.com</author-website>
-    <song></song>
-    <artist></artist>
-    <album></album>
+    <song/>
+    <artist/>
+    <album/>
     <MusicURL/>
     <comment/>
     <sequenceTiming>50 ms</sequenceTiming>

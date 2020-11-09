@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.46</version>
+    <version>2020.47</version>
     <author/>
     <author-email/>
     <author-website/>
-    <song></song>
-    <artist></artist>
-    <album></album>
+    <song/>
+    <artist/>
+    <album/>
     <MusicURL/>
     <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
@@ -141,7 +141,7 @@
     </Element>
     <Element type="model" name="WhiteSign1">
       <EffectLayer>
-        <Effect ref="0" name="On" selected="1" startTime="0" endTime="10200" palette="1"/>
+        <Effect ref="0" name="On" startTime="0" endTime="10200" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteSnowman1">
