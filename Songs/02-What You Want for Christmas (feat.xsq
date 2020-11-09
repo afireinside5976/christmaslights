@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.46</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>What You Want for Christmas (feat. Quad City DJ&amp;amp;apos;s &amp;amp;amp; K-nock)</song>
+    <artist>69 Boyz</artist>
+    <album>All Star Christmas</album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/home/almostengineer/xlights/Songs/02-What You Want for Christmas (feat. Quad City DJ's &amp; K-nock) (2).mp3</mediaFile>
+    <sequenceDuration>275.748</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect></Effect>
+    <Effect>E_CHECKBOX_On_Shimmer=1</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=16.2</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=20.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=38,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=20.0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="0"/>
+    <Element collapsed="0" type="timing" name="50ms" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="Countdown1" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown2" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown3" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown4" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown5" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown6" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown7" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown8" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown9" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown10" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown11" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown12" visible="1"/>
+    <Element collapsed="0" type="model" name="HouseFront" visible="1"/>
+    <Element collapsed="0" type="model" name="Random1" visible="1"/>
+    <Element collapsed="0" type="model" name="Random2" visible="1"/>
+    <Element collapsed="0" type="model" name="Random3" visible="1"/>
+    <Element collapsed="0" type="model" name="Random4" visible="1"/>
+    <Element collapsed="0" type="model" name="RedAll" visible="1"/>
+    <Element collapsed="0" type="model" name="RedSpotlights" visible="1"/>
+    <Element collapsed="0" type="model" name="RedTrees" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteAll" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteColumns" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteLeftSide" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteOuterColumns" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteRightSide" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteTrees" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteWindows" visible="1"/>
+    <Element collapsed="0" type="model" name="WindowsLeft" visible="1"/>
+    <Element collapsed="0" type="model" name="WindowsMiddle" visible="1"/>
+    <Element collapsed="0" type="model" name="WindowsRight" visible="1"/>
+    <Element collapsed="0" type="model" name="RedSpotlight1" visible="1"/>
+    <Element collapsed="0" type="model" name="RedSpotlight2" visible="1"/>
+    <Element collapsed="0" type="model" name="RedSpotlight3" visible="1"/>
+    <Element collapsed="0" type="model" name="RedTree1" visible="1"/>
+    <Element collapsed="0" type="model" name="RedTree2" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteColumn1" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteColumn2" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteColumn3" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteSign1" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteSnowman1" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteTree1" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteTree2" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteWindow1" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteWindow2" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteWindow3" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteWindow4" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="50ms" fixed="50">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown2">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="81750" endTime="82650" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="82650" endTime="83000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="83000" endTime="83100" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="171700" endTime="172500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="172500" endTime="173100" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown3">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="80350" endTime="81750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="170400" endTime="171300" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="171300" endTime="171700" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown4">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="79000" endTime="80400" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="169000" endTime="170200" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="170200" endTime="170400" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown5">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="74650" endTime="76400" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="76400" endTime="76850" palette="0"/>
+        <Effect ref="1" name="On" id="2" startTime="76850" endTime="79000" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="165400" endTime="167200" palette="0"/>
+        <Effect ref="1" name="On" id="4" startTime="167200" endTime="169000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown6">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="73250" endTime="73700" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="73700" endTime="74650" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="164050" endTime="165400" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown7">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="71850" endTime="73250" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="162650" endTime="164050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown8">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="70600" endTime="71850" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="161400" endTime="162650" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown9">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="69100" endTime="70250" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="70250" endTime="70600" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="159950" endTime="161400" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown10">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="67350" endTime="68700" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="68700" endTime="69100" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="158150" endTime="159950" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown11">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="65450" endTime="66900" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="66900" endTime="67350" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="156300" endTime="157500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="157500" endTime="158150" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown12">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="63650" endTime="64650" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="64650" endTime="65450" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="154450" endTime="156650" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="HouseFront">
+      <EffectLayer>
+        <Effect ref="2" name="SingleStrand" startTime="10950" endTime="25350" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Random1">
+      <EffectLayer>
+        <Effect ref="3" name="SingleStrand" startTime="25350" endTime="29150" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="1" startTime="32950" endTime="36750" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="2" startTime="40550" endTime="44350" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="3" startTime="48150" endTime="51950" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="4" startTime="55750" endTime="59550" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="5" startTime="123550" endTime="128300" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="6" startTime="133050" endTime="137800" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="7" startTime="142550" endTime="147300" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Random2">
+      <EffectLayer>
+        <Effect ref="3" name="SingleStrand" startTime="29150" endTime="32950" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="1" startTime="36750" endTime="40550" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="2" startTime="44350" endTime="48150" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="3" startTime="51950" endTime="55750" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="4" startTime="59550" endTime="60100" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="5" startTime="116300" endTime="121050" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="6" startTime="128300" endTime="133050" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="7" startTime="137800" endTime="142550" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="8" startTime="147300" endTime="152050" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Random3">
+      <EffectLayer>
+        <Effect ref="3" name="SingleStrand" startTime="25350" endTime="29150" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="1" startTime="32950" endTime="36750" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="2" startTime="40550" endTime="44350" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="3" startTime="48150" endTime="51950" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="4" startTime="55750" endTime="59550" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="5" startTime="123550" endTime="128300" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="6" startTime="133050" endTime="137800" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="7" startTime="142550" endTime="147300" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Random4">
+      <EffectLayer>
+        <Effect ref="3" name="SingleStrand" startTime="29150" endTime="32950" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="1" startTime="36750" endTime="40550" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="2" startTime="44350" endTime="48150" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="3" startTime="51950" endTime="55750" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="4" startTime="59550" endTime="60100" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="5" startTime="116300" endTime="121050" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="6" startTime="128300" endTime="133050" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="7" startTime="137800" endTime="142550" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="8" startTime="147300" endTime="152050" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="RedAll">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="86050" endTime="86750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="86750" endTime="87200" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="RedSpotlights">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="51850" endTime="52800" palette="1"/>
+        <Effect ref="0" name="On" id="1" startTime="53500" endTime="54450" palette="1"/>
+        <Effect ref="0" name="On" id="2" startTime="65050" endTime="65450" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="68700" endTime="69100" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="RedTrees">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="6400" palette="0"/>
+        <Effect ref="1" name="On" id="1" startTime="6400" endTime="10800" palette="0"/>
+        <Effect ref="1" name="On" id="2" startTime="10800" endTime="18250" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="61800" endTime="61950" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="62300" endTime="62450" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="62750" endTime="62900" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="63150" endTime="63300" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="66900" endTime="67300" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="70550" endTime="70950" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WhiteAll">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="60050" endTime="63300" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="121050" endTime="123550" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="176050" endTime="177200" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="179650" endTime="180850" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="183300" endTime="184250" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="186250" endTime="187650" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="187650" endTime="187950" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="190550" endTime="191300" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="194200" endTime="195100" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WhiteColumns">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="114450" endTime="114600" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="114950" endTime="115100" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="115400" endTime="115550" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="115800" endTime="115950" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WhiteLeftSide">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="114950" endTime="115100" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="115800" endTime="115950" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WhiteOuterColumns">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteRightSide">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="114450" endTime="114600" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="115400" endTime="115550" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WhiteTrees">
+      <EffectLayer>
+        <Effect ref="4" name="SingleStrand" startTime="101700" endTime="114450" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WhiteWindows">
+      <EffectLayer>
+        <Effect ref="4" name="SingleStrand" startTime="87200" endTime="114450" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WindowsLeft">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WindowsMiddle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WindowsRight">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedSpotlight1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedSpotlight2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedSpotlight3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedTree1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedTree2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteColumn1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteColumn2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteColumn3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteSign1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteSnowman1">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="2950" endTime="3150" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="3200" endTime="3600" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3650" endTime="5300" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="5750" endTime="6100" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="6150" endTime="6550" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="6600" endTime="6850" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="6850" endTime="9450" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="173050" endTime="174050" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="174050" endTime="175150" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="175150" endTime="176700" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WhiteTree1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteTree2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteWindow1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteWindow2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteWindow3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteWindow4">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="83100" endTime="85250" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="85250" endTime="86050" palette="0"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

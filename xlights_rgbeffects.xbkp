@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrgb>
+  <models>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" StringType="Single Color Red" name="RedSpotlight2" Active="1" WorldPosX="506.2124" WorldPosY="333.4431" WorldPosZ="0.0000" ScaleX="1.4444" ScaleY="5.3000" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="103">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" StringType="Single Color Red" name="RedSpotlight1" WorldPosX="385.0002" WorldPosY="335.9995" WorldPosZ="0.0000" ScaleX="1.4445" ScaleY="5.4400" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="102">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" StringType="Single Color Red" name="RedSpotlight3" WorldPosX="710.9912" WorldPosY="322.4218" WorldPosZ="0.0000" ScaleX="1.1119" ScaleY="5.4989" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="104">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow3" StringType="Single Color White" ShadowModelFor="" WorldPosX="714.9394" WorldPosY="249.0004" WorldPosZ="0.0000" ScaleX="2.3401" ScaleY="1.6000" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="118">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow2" StringType="Single Color White" WorldPosX="539.3411" WorldPosY="247.4720" WorldPosZ="0.0000" ScaleX="1.4042" ScaleY="1.3792" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="115">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow1" StringType="Single Color White" WorldPosX="428.4516" WorldPosY="248.4791" WorldPosZ="0.0000" ScaleX="1.3919" ScaleY="1.2180" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="114">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow4" StringType="Single Color White" WorldPosX="824.2297" WorldPosY="247.4968" WorldPosZ="0.0000" ScaleX="5.3078" ScaleY="1.6199" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="123">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="WhiteTree2" StringType="Single Color White" WorldPosX="588.1353" WorldPosY="247.7104" WorldPosZ="0.0000" X2="3.021240" Y2="-85.601913" Z2="0.000000" versionNumber="5" StartChannel="110">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="WhiteTree1" StringType="Single Color White" WorldPosX="311.1880" WorldPosY="243.6821" WorldPosZ="0.0000" X2="3.021240" Y2="-69.488617" Z2="0.000000" versionNumber="5" StartChannel="109">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="WhiteColumn3" StringType="Single Color White" WorldPosX="746.2469" WorldPosY="284.9724" WorldPosZ="0.0000" X2="1.007080" Y2="-76.538162" Z2="0.000000" versionNumber="5" StartChannel="116">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="WhiteColumn2" StringType="Single Color White" WorldPosX="671.7230" WorldPosY="287.9937" WorldPosZ="0.0000" X2="1.007080" Y2="-80.566483" Z2="0.000000" versionNumber="5" StartChannel="120">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="WhiteColumn1" StringType="Single Color White" WorldPosX="615.3264" WorldPosY="287.9937" WorldPosZ="0.0000" X2="1.007080" Y2="-78.552322" Z2="0.000000" versionNumber="5" StartChannel="121">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteSign1" StringType="Single Color White" WorldPosX="489.1853" WorldPosY="181.0507" WorldPosZ="0.0000" ScaleX="1.2024" ScaleY="0.4911" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="107">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteSnowman1" StringType="Single Color White" WorldPosX="668.7094" WorldPosY="184.7029" WorldPosZ="0.0000" ScaleX="0.8960" ScaleY="0.8687" ScaleZ="0.8960" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="108">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="RedTree2" StringType="Single Color Red" WorldPosX="595.1848" WorldPosY="246.7033" WorldPosZ="0.0000" X2="3.021240" Y2="-84.594833" Z2="0.000000" versionNumber="5" StartChannel="103">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="RedTree1" StringType="Single Color Red" WorldPosX="318.2376" WorldPosY="243.6821" WorldPosZ="0.0000" X2="3.021240" Y2="-70.495697" Z2="0.000000" versionNumber="5" StartChannel="102">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+  </models>
+  <view_objects>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5"/>
+  </view_objects>
+  <effects version="0006"/>
+  <views/>
+  <palettes/>
+  <modelGroups>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4" name="WhiteWindows"/>
+    <modelGroup selected="0" name="RedSpotlights" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="RedSpotlight1,RedSpotlight2,RedSpotlight3"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="RedTree1,RedTree2" name="RedTrees"/>
+    <modelGroup selected="0" name="WhiteColumns" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree1,WhiteTree2" name="WhiteTrees"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="RedTree1,RedTree2,WhiteTree1,WhiteTree2" name="AllTrees"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="RedAll" models=",RedTree1,RedTree2,RedSpotlight1,RedSpotlight2,RedSpotlight3"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4" name="WhiteAll"/>
+    <modelGroup selected="0" name="WhiteLeftSide" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree1,WhiteWindow1,WhiteWindow2"/>
+    <modelGroup selected="0" name="WhiteRightSide" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree2,WhiteWindow3,WhiteWindow4"/>
+    <modelGroup selected="0" name="AllLights" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models=",RedTree1,RedTree2,WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSign1,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,RedSpotlight1,RedSpotlight2,RedSpotlight3"/>
+    <modelGroup selected="0" name="WhiteOuterColumns" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn3"/>
+    <modelGroup selected="0" name="Countdown4" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
+    <modelGroup selected="0" name="Countdown3" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3"/>
+    <modelGroup selected="0" name="Countdown2" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree1,WhiteTree2"/>
+    <modelGroup selected="0" name="Countdown1" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteSnowman1"/>
+    <modelGroup selected="0" name="Countdown5" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteTree1,WhiteTree2"/>
+    <modelGroup selected="0" name="Countdown6" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
+    <modelGroup selected="0" name="Countdown7" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
+    <modelGroup selected="0" name="Countdown8" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSnowman1,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
+    <modelGroup selected="0" name="Countdown9" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
+    <modelGroup selected="0" name="Countdown10" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
+    <modelGroup selected="0" name="WindowsLeft" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2"/>
+    <modelGroup selected="0" name="WindowsRight" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow3,WhiteWindow4"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow2,WhiteWindow3" name="WindowsMiddle"/>
+    <modelGroup selected="0" name="Random1" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow3,WhiteTree1"/>
+    <modelGroup selected="0" name="Random2" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow2,WhiteWindow4,WhiteTree2"/>
+    <modelGroup selected="0" name="Countdown12" models="" layout="minimalGrid" GridSize="400" LayoutGroup="Default"/>
+    <modelGroup selected="0" name="Countdown11" models="" layout="minimalGrid" GridSize="400" LayoutGroup="Default"/>
+    <modelGroup selected="0" name="Random3" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree1,WhiteTree2,WhiteWindow2,WhiteWindow3"/>
+    <modelGroup selected="0" name="Random4" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4" GridSize="400" layout="grid"/>
+    <modelGroup selected="0" name="HouseFront" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
+  </modelGroups>
+  <layoutGroups/>
+  <perspectives current="Default Perspective">
+    <perspective name="Default Perspective" settings="layout2|name=ModelPreview;caption=Model Preview;state=6293502;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=HousePreview;caption=House Preview;state=6293500;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectAssist;caption=Effect Assist;state=2099198;dir=4;layer=1;row=0;pos=2;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DisplayElements;caption=Display Elements;state=6293503;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=600;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=600;floath=400|name=Perspectives;caption=Perspectives;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=149;besth=148;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Effect;caption=Effect Settings;state=2099198;dir=4;layer=0;row=1;pos=0;prop=100000;bestw=452;besth=936;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectEffect;caption=Select Effects;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=450;besth=288;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectDropper;caption=Effects;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=1044;besth=696;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ValueCurveDropper;caption=Value Curves;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=40;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ColourDropper;caption=Colours;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Jukebox;caption=Jukebox;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=100;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Color;caption=Color;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=378;besth=445;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerTiming;caption=Layer Blending;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=341;besth=363;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerSettings;caption=Layer Settings;state=2099198;dir=1;layer=0;row=0;pos=1;prop=100000;bestw=331;besth=525;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SequenceVideo;caption=Sequence Video;state=2099199;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=320;besth=191;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=0;floaty=0;floatw=328;floath=215|name=Main Sequencer;caption=Main Sequencer;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=129;besth=62;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,1,0)=417|dock_size(5,0,0)=131|" version="2.0"/>
+  </perspectives>
+  <settings>
+    <backgroundImage value="/home/almostengineer/christmaslightshow/Almostengr.LightShow/shows/Screenshot from 2020-10-26 07-52-59.png"/>
+    <scaleImage value="1"/>
+    <storedLayoutGroup value="Default"/>
+    <backgroundBrightness value="20"/>
+    <previewWidth value="1280"/>
+    <previewHeight value="720"/>
+  </settings>
+  <colors>
+    <DisabledEffect Red="255" Green="255" Blue="0"/>
+    <EffectDefault Red="192" Green="192" Blue="192"/>
+    <EffectSelected Red="204" Green="102" Blue="255"/>
+    <EffectSelectedFixed Red="255" Green="128" Blue="0"/>
+    <EffectSelectedLocked Red="200" Green="0" Blue="0"/>
+    <GridDashes Red="255" Green="255" Blue="0"/>
+    <Gridlines Red="40" Green="40" Blue="40"/>
+    <LabelOutline Red="103" Green="103" Blue="103"/>
+    <Labels Red="255" Green="255" Blue="204"/>
+    <LayoutDashes Red="255" Green="255" Blue="0"/>
+    <ModelDefault Red="211" Green="211" Blue="211"/>
+    <ModelOverlap Red="255" Green="0" Blue="0"/>
+    <ModelSelected Red="255" Green="255" Blue="0"/>
+    <Phonemes Red="255" Green="181" Blue="218"/>
+    <Phrases Red="153" Green="255" Blue="153"/>
+    <ReferenceEffect Red="255" Green="0" Blue="255"/>
+    <ReferenceEffectLocked Red="255" Green="0" Blue="0"/>
+    <RowHeaderSelected Red="130" Green="178" Blue="207"/>
+    <Timing1 Red="0" Green="255" Blue="255"/>
+    <Timing2 Red="255" Green="0" Blue="0"/>
+    <Timing3 Red="0" Green="255" Blue="0"/>
+    <Timing4 Red="0" Green="0" Blue="255"/>
+    <Timing5 Red="255" Green="255" Blue="0"/>
+    <TimingDefault Red="255" Green="255" Blue="255"/>
+    <Waveform Red="130" Green="178" Blue="207"/>
+    <WaveformSelected Red="0" Green="0" Blue="200"/>
+    <WaveformSelectedEffect Red="255" Green="128" Blue="0"/>
+    <Words Red="255" Green="218" Blue="145"/>
+  </colors>
+  <Viewpoints/>
+</xrgb>

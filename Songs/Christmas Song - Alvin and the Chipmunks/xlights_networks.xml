@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Networks computer="JAMES-PC">
+  <network NetworkType="NULL" MaxChannels="10977"/>
+  <network ComPort="192.168.0.8" BaudRate="1" NetworkType="E131" MaxChannels="512"/>
+  <network ComPort="192.168.0.8" BaudRate="2" NetworkType="E131" MaxChannels="512"/>
+  <network ComPort="192.168.0.8" BaudRate="3" NetworkType="E131" MaxChannels="512"/>
+  <network ComPort="192.168.0.8" BaudRate="4" NetworkType="E131" MaxChannels="512"/>
+  <network NetworkType="NULL" MaxChannels="30000"/>
+</Networks>
