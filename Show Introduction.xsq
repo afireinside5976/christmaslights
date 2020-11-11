@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.47</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/home/almostengineer/xlights/Songs/Show Introduction.mp3</mediaFile>
+    <sequenceDuration>24.912</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="WhiteWindows" visible="1"/>
+    <Element collapsed="0" type="model" name="RedSpotlights" visible="1"/>
+    <Element collapsed="0" type="model" name="RedTrees" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteColumns" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteTrees" visible="1"/>
+    <Element collapsed="0" type="model" name="AllTrees" visible="1"/>
+    <Element collapsed="0" type="model" name="RedAll" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteAll" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteLeftSide" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteRightSide" visible="1"/>
+    <Element collapsed="0" type="model" name="AllLights" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteOuterColumns" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown4" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown3" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown2" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown1" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown5" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown6" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown7" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown8" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown9" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown10" visible="1"/>
+    <Element collapsed="0" type="model" name="WindowsLeft" visible="1"/>
+    <Element collapsed="0" type="model" name="WindowsRight" visible="1"/>
+    <Element collapsed="0" type="model" name="WindowsMiddle" visible="1"/>
+    <Element collapsed="0" type="model" name="Random1" visible="1"/>
+    <Element collapsed="0" type="model" name="Random2" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown12" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown11" visible="1"/>
+    <Element collapsed="0" type="model" name="Random3" visible="1"/>
+    <Element collapsed="0" type="model" name="Random4" visible="1"/>
+    <Element collapsed="0" type="model" name="HouseFront" visible="1"/>
+    <Element collapsed="0" type="model" name="RedSpotlight2" visible="1"/>
+    <Element collapsed="0" type="model" name="RedSpotlight1" visible="1"/>
+    <Element collapsed="0" type="model" name="RedSpotlight3" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteWindow3" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteWindow2" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteWindow1" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteWindow4" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteTree2" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteTree1" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteColumn3" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteColumn2" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteColumn1" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteSign1" visible="1"/>
+    <Element collapsed="0" type="model" name="WhiteSnowman1" visible="1"/>
+    <Element collapsed="0" type="model" name="RedTree2" visible="1"/>
+    <Element collapsed="0" type="model" name="RedTree1" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteWindows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedSpotlights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedTrees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteColumns">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteTrees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AllTrees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedAll">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteAll">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteLeftSide">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteRightSide">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AllLights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteOuterColumns">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown7">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown8">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown9">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown10">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WindowsLeft">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WindowsRight">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WindowsMiddle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Random1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Random2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown12">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown11">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Random3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Random4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="HouseFront">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="24950" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="RedSpotlight2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedSpotlight1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedSpotlight3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteWindow3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteWindow2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteWindow1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteWindow4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteTree2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteTree1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteColumn3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteColumn2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteColumn1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WhiteSign1">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="24950" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WhiteSnowman1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedTree2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="RedTree1">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
