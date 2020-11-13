@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.46</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
+    <version>2020.47</version>
+    <author/>
+    <author-email/>
+    <author-website/>
     <song>What You Want for Christmas (feat. Quad City DJ&amp;amp;apos;s &amp;amp;amp; K-nock)</song>
     <artist>69 Boyz</artist>
     <album>All Star Christmas</album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/home/almostengineer/xlights/Songs/02-What You Want for Christmas (feat. Quad City DJ's &amp; K-nock) (2).mp3</mediaFile>
     <sequenceDuration>275.748</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
@@ -27,14 +27,14 @@
     <Effect>E_CHECKBOX_On_Shimmer=1</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=16.2</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=20.0</Effect>
-    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=20.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=38,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=20.0</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="0"/>
-    <Element collapsed="0" type="timing" name="50ms" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="timing" name="50ms" visible="1" views="" active="0"/>
     <Element collapsed="0" type="model" name="Countdown1" visible="1"/>
     <Element collapsed="0" type="model" name="Countdown2" visible="1"/>
     <Element collapsed="0" type="model" name="Countdown3" visible="1"/>
@@ -97,16 +97,22 @@
         <Effect ref="0" name="On" startTime="81750" endTime="82650" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="82650" endTime="83000" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="83000" endTime="83100" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="171700" endTime="172500" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="172500" endTime="173100" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Countdown3">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="80350" endTime="81750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="170400" endTime="171300" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="171300" endTime="171700" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Countdown4">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="79000" endTime="80400" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="169000" endTime="170200" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="170200" endTime="170400" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Countdown5">
@@ -114,46 +120,56 @@
         <Effect ref="0" name="On" startTime="74650" endTime="76400" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="76400" endTime="76850" palette="0"/>
         <Effect ref="1" name="On" id="2" startTime="76850" endTime="79000" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="165400" endTime="167200" palette="0"/>
+        <Effect ref="1" name="On" id="4" startTime="167200" endTime="169000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Countdown6">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="73250" endTime="73700" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="73700" endTime="74650" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="164050" endTime="165400" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Countdown7">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="71850" endTime="73250" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="162650" endTime="164050" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Countdown8">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="70600" endTime="71850" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="161400" endTime="162650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Countdown9">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="69100" endTime="70250" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="70250" endTime="70600" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="159950" endTime="161400" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Countdown10">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="67350" endTime="68700" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="68700" endTime="69100" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="158150" endTime="159950" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Countdown11">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="65450" endTime="66900" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="66900" endTime="67350" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="156300" endTime="157500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="157500" endTime="158150" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Countdown12">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="63650" endTime="64650" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="64650" endTime="65450" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="154450" endTime="156650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="HouseFront">
@@ -168,6 +184,9 @@
         <Effect ref="3" name="SingleStrand" id="2" startTime="40550" endTime="44350" palette="1"/>
         <Effect ref="3" name="SingleStrand" id="3" startTime="48150" endTime="51950" palette="1"/>
         <Effect ref="3" name="SingleStrand" id="4" startTime="55750" endTime="59550" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="5" startTime="123550" endTime="128300" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="6" startTime="133050" endTime="137800" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="7" startTime="142550" endTime="147300" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Random2">
@@ -177,6 +196,10 @@
         <Effect ref="3" name="SingleStrand" id="2" startTime="44350" endTime="48150" palette="1"/>
         <Effect ref="3" name="SingleStrand" id="3" startTime="51950" endTime="55750" palette="1"/>
         <Effect ref="3" name="SingleStrand" id="4" startTime="59550" endTime="60100" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="5" startTime="116300" endTime="121050" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="6" startTime="128300" endTime="133050" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="7" startTime="137800" endTime="142550" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="8" startTime="147300" endTime="152050" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Random3">
@@ -186,6 +209,9 @@
         <Effect ref="3" name="SingleStrand" id="2" startTime="40550" endTime="44350" palette="1"/>
         <Effect ref="3" name="SingleStrand" id="3" startTime="48150" endTime="51950" palette="1"/>
         <Effect ref="3" name="SingleStrand" id="4" startTime="55750" endTime="59550" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="5" startTime="123550" endTime="128300" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="6" startTime="133050" endTime="137800" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="7" startTime="142550" endTime="147300" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Random4">
@@ -195,6 +221,10 @@
         <Effect ref="3" name="SingleStrand" id="2" startTime="44350" endTime="48150" palette="1"/>
         <Effect ref="3" name="SingleStrand" id="3" startTime="51950" endTime="55750" palette="1"/>
         <Effect ref="3" name="SingleStrand" id="4" startTime="59550" endTime="60100" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="5" startTime="116300" endTime="121050" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="6" startTime="128300" endTime="133050" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="7" startTime="137800" endTime="142550" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="8" startTime="147300" endTime="152050" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="RedAll">
@@ -208,6 +238,7 @@
         <Effect ref="0" name="On" startTime="51850" endTime="52800" palette="1"/>
         <Effect ref="0" name="On" id="1" startTime="53500" endTime="54450" palette="1"/>
         <Effect ref="0" name="On" id="2" startTime="65050" endTime="65450" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="68700" endTime="69100" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="RedTrees">
@@ -219,26 +250,50 @@
         <Effect ref="0" name="On" id="4" startTime="62300" endTime="62450" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="62750" endTime="62900" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="63150" endTime="63300" palette="0"/>
-        <Effect ref="0" name="On" id="7" startTime="66600" endTime="67500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="66900" endTime="67300" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="70550" endTime="70950" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteAll">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="60050" endTime="63300" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="121050" endTime="123550" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="176050" endTime="177200" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="179650" endTime="180850" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="183300" endTime="184250" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="186250" endTime="187650" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="187650" endTime="187950" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="190550" endTime="191300" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="194200" endTime="195100" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="WhiteColumns">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="114450" endTime="114600" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="114950" endTime="115100" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="115400" endTime="115550" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="115800" endTime="115950" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="WhiteLeftSide">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="114950" endTime="115100" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="115800" endTime="115950" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="WhiteOuterColumns">
       <EffectLayer/>
     </Element>
     <Element type="model" name="WhiteRightSide">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="114450" endTime="114600" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="115400" endTime="115550" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="WhiteTrees">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="4" name="SingleStrand" startTime="101700" endTime="114450" palette="1"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="WhiteWindows">
       <EffectLayer>
@@ -290,6 +345,9 @@
         <Effect ref="0" name="On" id="4" startTime="6150" endTime="6550" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="6600" endTime="6850" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="6850" endTime="9450" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="173050" endTime="174050" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="174050" endTime="175150" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="175150" endTime="176700" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteTree1">

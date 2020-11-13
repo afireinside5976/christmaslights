@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2020.46</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
+    <version>2020.47</version>
+    <author/>
+    <author-email/>
+    <author-website/>
     <song>What You Want for Christmas (feat. Quad City DJ&amp;amp;apos;s &amp;amp;amp; K-nock)</song>
     <artist>69 Boyz</artist>
     <album>All Star Christmas</album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/home/almostengineer/xlights/Songs/02-What You Want for Christmas (feat. Quad City DJ's &amp; K-nock) (2).mp3</mediaFile>
     <sequenceDuration>275.748</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>

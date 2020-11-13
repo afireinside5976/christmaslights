@@ -98,7 +98,7 @@
     <backgroundImage value="/home/almostengineer/christmaslightshow/Almostengr.LightShow/shows/Screenshot from 2020-10-26 07-52-59.png"/>
     <scaleImage value="1"/>
     <storedLayoutGroup value="Default"/>
-    <backgroundBrightness value="20"/>
+    <backgroundBrightness value="0"/>
     <previewWidth value="1280"/>
     <previewHeight value="720"/>
   </settings>
