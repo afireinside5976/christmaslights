@@ -2,18 +2,18 @@
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
     <version>2020.47</version>
-    <author/>
-    <author-email/>
-    <author-website/>
-    <song/>
-    <artist/>
-    <album/>
-    <MusicURL/>
-    <comment/>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/home/almostengineer/xlights/Songs/Show Introduction.mp3</mediaFile>
-    <sequenceDuration>24.912</sequenceDuration>
+    <sequenceDuration>45.600</sequenceDuration>
     <imageDir/>
   </head>
   <nextid>1</nextid>
@@ -86,7 +86,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="RedSpotlights">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" selected="1" startTime="0" endTime="45500" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="RedTrees">
       <EffectLayer/>
@@ -177,7 +179,7 @@
     </Element>
     <Element type="model" name="HouseFront">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="24950" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="45500" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="RedSpotlight2">
@@ -218,7 +220,7 @@
     </Element>
     <Element type="model" name="WhiteSign1">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="24950" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="45500" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteSnowman1">

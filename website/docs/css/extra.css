@@ -1,0 +1,21 @@
+:root{
+    --dark-red: #990000;
+}
+
+.wy-side-nav-search{
+    background-color: var(--dark-red);
+}
+
+a, a:visited {
+    color: var(--dark-red);
+}
+
+.wy-nav-content-wrap {
+    /* background-color: #000000; */
+    /* background-color: #fff; */
+}
+
+/* .wy-body-for-nav {
+    margin: 0 auto;
+    min-width: 100vw;
+} */
