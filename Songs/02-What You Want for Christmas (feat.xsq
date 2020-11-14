@@ -34,7 +34,7 @@
   </DataLayers>
   <DisplayElements>
     <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="0"/>
-    <Element collapsed="0" type="timing" name="50ms" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="timing" name="50ms" visible="1" views="" active="0"/>
     <Element collapsed="0" type="model" name="Countdown1" visible="1"/>
     <Element collapsed="0" type="model" name="Countdown2" visible="1"/>
     <Element collapsed="0" type="model" name="Countdown3" visible="1"/>

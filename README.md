@@ -1,10 +1,9 @@
-# xlightssongs
+# Christmas Lights
 
-Songs that have been configured for my xlights display.
+## Xlights
 
-Primary purpose of this repository is used to backup the show files that are created.
-
-No music files are contained in the repository to avoid copyright complaints and concerns.
+This repo contains sequences that I have created using Xlights. These sequences are for AC lights. I do not store songs 
+in the repository due to copyright concerns.
 
 ## Resources
 
