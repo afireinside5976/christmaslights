@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# Christmas Light Show
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Show Times and Dates
 
-## Commands
+Show will run nightly from November 27, 2020 until January 2, 2021.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Times are as follows: 
 
-## Project layout
+Sunday-Thursday, 5:30 PM until 10:00 PM
+Friday and Saturday, 5:30 PM until 11:00 PM
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Listen form Your Car
+
+To listen to the light show, tune your radio to 90.3 FM.
