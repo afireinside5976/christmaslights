@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow5" WorldPosX="511.5198" WorldPosY="363.3680" WorldPosZ="0.0000" ScaleX="1.1938" ScaleY="0.6820" ScaleZ="0.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;WhiteWindow4:1">
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow5" StringType="Single Color White" WorldPosX="511.5198" WorldPosY="363.3680" WorldPosZ="0.0000" ScaleX="1.1938" ScaleY="0.6820" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;WhiteWindow4:1">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow6" WorldPosX="457.3417" WorldPosY="360.2230" WorldPosZ="0.0000" ScaleX="1.1595" ScaleY="0.6411" ScaleZ="0.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;WhiteWindow5:1">
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow6" StringType="Single Color White" WorldPosX="457.3417" WorldPosY="360.2230" WorldPosZ="0.0000" ScaleX="1.1595" ScaleY="0.6411" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;WhiteWindow5:1">
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" StringType="Single Color Red" name="RedSpotlight2" Active="1" WorldPosX="570.6655" WorldPosY="329.4148" WorldPosZ="0.0000" ScaleX="1.4444" ScaleY="5.3000" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="103">
@@ -73,7 +73,7 @@
     <modelGroup selected="0" LayoutGroup="Default" name="WhiteAll" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,WhiteWindow5,WhiteWindow6" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="WhiteLeftSide" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree1,WhiteWindow1,WhiteWindow2"/>
     <modelGroup selected="0" name="WhiteRightSide" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree2,WhiteWindow3,WhiteWindow4"/>
-    <modelGroup selected="0" name="AllLights" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models=",RedTree1,RedTree2,WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSign1,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,RedSpotlight1,RedSpotlight2,RedSpotlight3"/>
+    <modelGroup selected="0" name="AllLights" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models=",RedTree1,RedTree2,WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSign1,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,RedSpotlight1,RedSpotlight2,RedSpotlight3,WhiteWindow5,WhiteWindow6"/>
     <modelGroup selected="0" name="WhiteOuterColumns" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn3"/>
     <modelGroup selected="0" name="Countdown4" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
     <modelGroup selected="0" name="Countdown3" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3"/>
@@ -109,7 +109,7 @@
     <storedLayoutGroup value="Default"/>
     <previewWidth value="1280"/>
     <previewHeight value="720"/>
-    <backgroundBrightness value="50"/>
+    <backgroundBrightness value="10"/>
   </settings>
   <colors>
     <DisabledEffect Red="255" Green="255" Blue="0"/>

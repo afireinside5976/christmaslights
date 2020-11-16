@@ -167,8 +167,7 @@
         <Effect ref="0" name="On" id="14" startTime="299600" endTime="302600" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="304900" endTime="306400" palette="0"/>
         <Effect ref="0" name="On" id="16" startTime="306400" endTime="307900" palette="0"/>
-        <Effect ref="0" name="On" id="17" startTime="310400" endTime="313200" palette="0"/>
-        <Effect ref="0" name="On" id="18" startTime="313200" endTime="313700" palette="0"/>
+        <Effect ref="0" name="On" id="17" startTime="310400" endTime="313400" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="RedAll">
@@ -194,8 +193,7 @@
         <Effect ref="0" name="On" id="15" startTime="306600" endTime="308200" palette="0"/>
         <Effect ref="0" name="On" id="16" startTime="309800" endTime="311100" palette="0"/>
         <Effect ref="0" name="On" id="17" startTime="311100" endTime="313700" palette="0"/>
-        <Effect ref="0" name="On" id="18" startTime="356200" endTime="360300" palette="0"/>
-        <Effect ref="0" name="On" id="19" startTime="360300" endTime="365900" palette="0"/>
+        <Effect ref="0" name="On" id="18" startTime="356200" endTime="360700" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="RedTrees">
@@ -220,7 +218,8 @@
         <Effect ref="1" name="On" startTime="353500" endTime="356200" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="356200" endTime="361400" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="361400" endTime="361600" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="361600" endTime="362500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="361600" endTime="375200" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="375200" endTime="376700" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteColumns">
@@ -490,15 +489,6 @@
         <Effect ref="0" name="On" id="10" startTime="235300" endTime="236900" palette="0"/>
         <Effect ref="0" name="On" id="11" startTime="236900" endTime="237600" palette="0"/>
         <Effect ref="0" name="On" id="12" startTime="240700" endTime="243300" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="317700" endTime="318500" palette="0"/>
-        <Effect ref="0" name="On" id="14" startTime="318500" endTime="319200" palette="0"/>
-        <Effect ref="0" name="On" id="15" startTime="321100" endTime="324300" palette="0"/>
-        <Effect ref="0" name="On" id="16" startTime="328100" endTime="330100" palette="0"/>
-        <Effect ref="0" name="On" id="17" startTime="332900" endTime="335500" palette="0"/>
-        <Effect ref="0" name="On" id="18" startTime="339400" endTime="340700" palette="0"/>
-        <Effect ref="0" name="On" id="19" startTime="343800" endTime="344800" palette="0"/>
-        <Effect ref="0" name="On" id="20" startTime="345000" endTime="346100" palette="0"/>
-        <Effect ref="0" name="On" id="21" startTime="346100" endTime="347400" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteTree2">
@@ -528,8 +518,8 @@
         <Effect ref="0" name="On" id="22" startTime="121100" endTime="121400" palette="0"/>
         <Effect ref="0" name="On" id="23" startTime="121500" endTime="122400" palette="0"/>
         <Effect ref="0" name="On" id="24" startTime="122400" endTime="123800" palette="0"/>
-        <Effect ref="0" name="On" selected="1" id="25" startTime="124200" endTime="126800" palette="0"/>
-        <Effect ref="1" name="On" id="26" startTime="126800" endTime="128400" palette="0"/>
+        <Effect ref="0" name="On" id="25" startTime="124200" endTime="127800" palette="0"/>
+        <Effect ref="0" name="On" id="26" startTime="127800" endTime="128400" palette="0"/>
         <Effect ref="0" name="On" id="27" startTime="129700" endTime="130500" palette="0"/>
         <Effect ref="0" name="On" id="28" startTime="131100" endTime="132300" palette="0"/>
         <Effect ref="0" name="On" id="29" startTime="132300" endTime="132700" palette="0"/>

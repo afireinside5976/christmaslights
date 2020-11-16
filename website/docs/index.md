@@ -121,7 +121,7 @@ An update will be provided on this at a later time.
 
 Use the navigation on the left to see the information about the displays from previous years.
 
-### How can I get a copy of your sequences?
+### How can I get a copy of your XLights sequences?
 
 You can get them from my
 <a href="https://github.com/almostengr/christmaslights" target="_blank">Github repo</a>. Each sequence is

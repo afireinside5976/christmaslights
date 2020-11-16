@@ -2,14 +2,14 @@
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
     <version>2020.47</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
+    <author/>
+    <author-email/>
+    <author-website/>
     <song>Christmas Time Is Party Time</song>
     <artist>Luke</artist>
     <album>Special Gift</album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
     <mediaFile>/home/almostengineer/xlights/Christmas Time Is Party Time.mp3</mediaFile>
