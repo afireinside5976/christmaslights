@@ -131,6 +131,7 @@
         <Effect ref="1" name="On" id="12" startTime="8500" endTime="8650" palette="1"/>
         <Effect ref="1" name="On" id="13" startTime="8700" endTime="8850" palette="1"/>
         <Effect ref="1" name="On" id="14" startTime="9050" endTime="9750" palette="1"/>
+        <Effect ref="0" name="On" selected="1" id="15" startTime="16400" endTime="19900" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteWindows">

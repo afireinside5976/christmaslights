@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
-    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" StringType="Single Color Red" name="RedSpotlight2" Active="1" WorldPosX="506.2124" WorldPosY="333.4431" WorldPosZ="0.0000" ScaleX="1.4444" ScaleY="5.3000" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="103">
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow5" WorldPosX="511.5198" WorldPosY="363.3680" WorldPosZ="0.0000" ScaleX="1.1938" ScaleY="0.6820" ScaleZ="0.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;WhiteWindow4:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow6" WorldPosX="457.3417" WorldPosY="360.2230" WorldPosZ="0.0000" ScaleX="1.1595" ScaleY="0.6411" ScaleZ="0.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;WhiteWindow5:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" StringType="Single Color Red" name="RedSpotlight2" Active="1" WorldPosX="570.6655" WorldPosY="329.4148" WorldPosZ="0.0000" ScaleX="1.4444" ScaleY="5.3000" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="103">
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" StringType="Single Color Red" name="RedSpotlight1" WorldPosX="385.0002" WorldPosY="335.9995" WorldPosZ="0.0000" ScaleX="1.4445" ScaleY="5.4400" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="102">
@@ -22,10 +28,10 @@
     <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteWindow4" StringType="Single Color White" WorldPosX="824.2297" WorldPosY="247.4968" WorldPosZ="0.0000" ScaleX="5.3078" ScaleY="1.6199" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="325">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="WhiteTree2" StringType="Single Color White" WorldPosX="588.1353" WorldPosY="247.7104" WorldPosZ="0.0000" X2="3.021240" Y2="-85.601913" Z2="0.000000" versionNumber="5" StartChannel="213">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="WhiteTree2" StringType="Single Color White" WorldPosX="588.0059" WorldPosY="301.6471" WorldPosZ="0.0000" X2="2.262085" Y2="-126.209885" Z2="0.000000" versionNumber="5" StartChannel="213">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="WhiteTree1" StringType="Single Color White" WorldPosX="311.1880" WorldPosY="243.6821" WorldPosZ="0.0000" X2="3.021240" Y2="-69.488617" Z2="0.000000" versionNumber="5" StartChannel="211">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="WhiteTree1" StringType="Single Color White" WorldPosX="315.3929" WorldPosY="315.7870" WorldPosZ="0.0000" X2="2.014099" Y2="-124.374573" Z2="0.000000" versionNumber="5" StartChannel="211">
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="WhiteColumn3" StringType="Single Color White" WorldPosX="746.2469" WorldPosY="284.9724" WorldPosZ="0.0000" X2="1.007080" Y2="-76.538162" Z2="0.000000" versionNumber="5" StartChannel="118">
@@ -43,10 +49,10 @@
     <model DisplayAs="Window Frame" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="WhiteSnowman1" StringType="Single Color White" WorldPosX="668.7094" WorldPosY="184.7029" WorldPosZ="0.0000" ScaleX="0.8960" ScaleY="0.8687" ScaleZ="0.8960" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="320">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="RedTree2" StringType="Single Color Red" WorldPosX="595.1848" WorldPosY="246.7033" WorldPosZ="0.0000" X2="3.021240" Y2="-84.594833" Z2="0.000000" versionNumber="5" StartChannel="127">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="RedTree2" StringType="Single Color Red" WorldPosX="598.0765" WorldPosY="300.7585" WorldPosZ="0.0000" X2="2.499146" Y2="-123.544022" Z2="0.000000" versionNumber="5" StartChannel="127">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="RedTree1" StringType="Single Color Red" WorldPosX="318.2376" WorldPosY="243.6821" WorldPosZ="0.0000" X2="3.021240" Y2="-70.495697" Z2="0.000000" versionNumber="5" StartChannel="117">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="RedTree1" StringType="Single Color Red" WorldPosX="322.1733" WorldPosY="316.3018" WorldPosZ="0.0000" X2="3.021240" Y2="-126.388733" Z2="0.000000" versionNumber="5" StartChannel="117">
       <ControllerConnection Protocol="ws2811"/>
     </model>
   </models>
@@ -57,14 +63,14 @@
   <views/>
   <palettes/>
   <modelGroups>
-    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4" name="WhiteWindows"/>
+    <modelGroup selected="0" LayoutGroup="Default" name="WhiteWindows" models="WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,WhiteWindow5,WhiteWindow6" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="RedSpotlights" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="RedSpotlight1,RedSpotlight2,RedSpotlight3"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="RedTree1,RedTree2" name="RedTrees"/>
     <modelGroup selected="0" name="WhiteColumns" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree1,WhiteTree2" name="WhiteTrees"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="RedTree1,RedTree2,WhiteTree1,WhiteTree2" name="AllTrees"/>
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" name="RedAll" models=",RedTree1,RedTree2,RedSpotlight1,RedSpotlight2,RedSpotlight3"/>
-    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4" name="WhiteAll"/>
+    <modelGroup selected="0" LayoutGroup="Default" name="WhiteAll" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,WhiteWindow5,WhiteWindow6" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
     <modelGroup selected="0" name="WhiteLeftSide" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree1,WhiteWindow1,WhiteWindow2"/>
     <modelGroup selected="0" name="WhiteRightSide" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree2,WhiteWindow3,WhiteWindow4"/>
     <modelGroup selected="0" name="AllLights" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models=",RedTree1,RedTree2,WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSign1,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,RedSpotlight1,RedSpotlight2,RedSpotlight3"/>
@@ -88,7 +94,10 @@
     <modelGroup selected="0" name="Countdown11" models="" layout="minimalGrid" GridSize="400" LayoutGroup="Default"/>
     <modelGroup selected="0" name="Random3" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree1,WhiteTree2,WhiteWindow2,WhiteWindow3"/>
     <modelGroup selected="0" name="Random4" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4" GridSize="400" layout="grid"/>
-    <modelGroup selected="0" name="HouseFront" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
+    <modelGroup selected="0" name="HouseFront" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,WhiteWindow5,WhiteWindow6" GridSize="400" XCentreOffset="0" YCentreOffset="-1" layout="minimalGrid"/>
+    <modelGroup selected="0" name="WindowsCapeCod" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2,WhiteWindow5,WhiteWindow6"/>
+    <modelGroup selected="0" name="WindowsGroundLevel" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
+    <modelGroup selected="0" name="WindowsSecondLevel" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow5,WhiteWindow6"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">
@@ -98,9 +107,9 @@
     <backgroundImage value="/home/almostengineer/christmaslightshow/Almostengr.LightShow/shows/Screenshot from 2020-10-26 07-52-59.png"/>
     <scaleImage value="1"/>
     <storedLayoutGroup value="Default"/>
-    <backgroundBrightness value="0"/>
     <previewWidth value="1280"/>
     <previewHeight value="720"/>
+    <backgroundBrightness value="50"/>
   </settings>
   <colors>
     <DisabledEffect Red="255" Green="255" Blue="0"/>

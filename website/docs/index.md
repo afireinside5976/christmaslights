@@ -37,15 +37,16 @@ The songs below are synchronized to the lights and play during [show times](#sho
 The songs below play on loop during non-showtime hours. Lights do not synchronize to music during
 non-show hours.
 
-* Christmas in Hollis - Run DMC (04:02)
+* Christmas In Hollis - Run DMC (04:02)
 * Christmas Song - Alvin and the Chimpmunks (02:21)
 * Christmas Time Is Party Time - Luke (03:21)
-* Knockin Boots on Christmas - H-Town (04:57)
-* What You Want for Christmas - Quad City DJs and K-nock (04:35)
-* Christmas Songs - Mariah Carey (04:27)
+* Knockin Boots On Christmas - H-Town (04:57)
+* What You Want For Christmas - Quad City DJs and K-nock (04:35)
+* O Holy Night - Mariah Carey (04:27)
 * O Come All Ye Faithful - Luther Vandross (04:19)
 * Christmas Eve/Sarajevo - Trans-Siberian Orchestra (03:24)
 * Silent Night - The Temptations (06:16)
+* All I Want For Christmas Is You - Mariah Carey (03:55)
 
 ## Hardware
 
@@ -57,7 +58,7 @@ Raspberry Pi.
 
 ### Christmas Lights
 
-All of the lights are LED. Only two colors are used for the light show. White and red.
+All of the lights are LED. Only two colors are used for the light show, white and red.
 
 ### Relays
 
@@ -74,13 +75,13 @@ the Raspberry Pi and broadcasted on an open frequency. Radio Locator in
 
 ### Xlights
 
-The music and light sequences are connected together using Xlights. This software is open source
+The music and light sequences are timed together using Xlights. This software is open source
 and runs on most operating systems, including Windows, Linux, and Mac.
 
 ### Falcon Pi Player (FPP)
 
 Once the sequences have been created in Xlights, those files are copied over to FPP. From there, the
-show data, music, and scheduling are all done within this software.
+show data files, music files, and scheduling are all connected within this software.
 
 ### Kdenlive
 
@@ -93,38 +94,35 @@ Below are links to other websites and reference documentation that was used to b
 
 ### Light Show Websites
 
-* <a href="https://sites.google.com/site/listentoourlights/home" target="_blank">Listen To Our Lights</a>
 * <a href="http://www.lightinguppaxton.com/" target="_blank">Lighting Up Paxton</a>
+* <a href="https://sites.google.com/site/listentoourlights/home" target="_blank">Listen To Our Lights</a>
 * <a href="http://www.mosslights.com" target="_blank">Moss Lights</a>
 
 ### Resources and Other Information
 
-* <a href="https://ttstool.com" target="_blank">TTS Tool, for text to speech recordings</a>
-* <a href="https://radio-locator.com/cgi-bin/vacant" target="_blank">Radio Locator, find vacant radio channels</a>
 * <a href="http://www.falconchristmas.com" target="_blank">Falcon Christmas</a>
+* <a href="https://radio-locator.com/cgi-bin/vacant" target="_blank">Radio Locator, find vacant radio channels</a>
+* <a href="https://ttstool.com" target="_blank">TTS Tool, for text to speech recordings</a>
 
 ## FAQ (Frequently Asked Questions)
 
-### How do you keep the lights from shorting out in the rain?
+### How do you keep the lights from shorting or tripping breakers during wet weather?
 
 Each connection that is on the ground is wrapped in electrical tape. That prevents water from
-coming in contact with the outlet, which would result in an electrical short, thus tripping the breaker and
+reaching the connections, which would result in an electrical short, thus tripping the breaker and
 shutting down the show.
 
-### How much does this cost?
+### How much does the show raise your power bill?
 
-Not sure. This is the first year doing an animated display, so there's no comparison from previous years.
-
-### Why do you do this?
-
-Because looking at Christmas lights is cool!
+Not sure. This is the first year doing an animated display, so there's no comparison from previous years. 
+An update will be provided on this at a later time.
 
 ### What have you done in previous years?
 
-Use the navigation on the left to see the information about the previous years' shows.
+Use the navigation on the left to see the information about the displays from previous years.
 
 ### How can I get a copy of your sequences?
 
 You can get them from my
 <a href="https://github.com/almostengr/christmaslights" target="_blank">Github repo</a>. Each sequence is
-designed for AC lights only.
+designed for AC lights only. Music is not provided with the sequences due to copyright concerns.
