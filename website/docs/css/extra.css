@@ -1,26 +1,25 @@
 :root{
     --dark-red: #990000;
+    --black: #000000;
+    --dark-green: #007000;
 }
 
 .wy-side-nav-search, 
 .wy-nav-top{
-    background-color: var(--dark-red);
+    background-color: var(--dark-green);
 }
 
-a, a:visited {
-    color: var(--dark-red);
+a:visited, a:hover,
+div.rst-content a {
+    color: var(--dark-green);
+    text-decoration: underline;
 }
-
-.wy-nav-content-wrap {
-    /* background-color: #000000; */
-    /* background-color: #fff; */
-}
-
-/* .wy-body-for-nav {
-    margin: 0 auto;
-    min-width: 100vw;
-} */
 
 li.wy-breadcrumbs-aside {
     display: none;
+}
+
+section.wy-nav-content-wrap
+{
+    background-color: var(--dark-green);
 }

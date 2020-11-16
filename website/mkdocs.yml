@@ -1,6 +1,6 @@
 site_name: Christmas Light Show
 site_description: Documentation about the Christmas Light Show
-site_url: https://thealmostengineer.com
+site_url: https://almostengr.github.io/christmaslights/
 copyright: Copyright 2020
 
 # repository information
@@ -14,21 +14,10 @@ dev_addr: 192.168.57.117:8000
   
 extra_css: [css/extra.css]
 
-
 # Appearance
 theme:
   name: readthedocs
   highlightjs: false
-
-  # name: material
-  # palette: 
-  #   primary: teal
-  #   accent: red
-  #   # scheme: slate
-  # features:
-  #   - navigation.tabs
-  # # hide: 
-  # #   - navigation
   language: en
 
 use_directory_urls: true
