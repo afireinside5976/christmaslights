@@ -2,7 +2,8 @@
     --dark-red: #990000;
 }
 
-.wy-side-nav-search{
+.wy-side-nav-search, 
+.wy-nav-top{
     background-color: var(--dark-red);
 }
 
@@ -19,3 +20,7 @@ a, a:visited {
     margin: 0 auto;
     min-width: 100vw;
 } */
+
+li.wy-breadcrumbs-aside {
+    display: none;
+}
