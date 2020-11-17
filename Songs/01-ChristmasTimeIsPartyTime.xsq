@@ -672,6 +672,14 @@
         <Effect ref="0" name="On" id="5" startTime="113200" endTime="113300" palette="2"/>
         <Effect ref="0" name="On" id="6" startTime="113400" endTime="113500" palette="2"/>
         <Effect ref="0" name="On" id="7" startTime="113600" endTime="113700" palette="2"/>
+        <Effect ref="0" name="On" id="8" startTime="125300" endTime="125400" palette="2"/>
+        <Effect ref="0" name="On" id="9" startTime="125500" endTime="125600" palette="2"/>
+        <Effect ref="0" name="On" id="10" startTime="125700" endTime="125800" palette="2"/>
+        <Effect ref="0" name="On" id="11" startTime="125900" endTime="126000" palette="2"/>
+        <Effect ref="0" name="On" id="12" startTime="126100" endTime="126200" palette="2"/>
+        <Effect ref="0" name="On" id="13" startTime="126300" endTime="126400" palette="2"/>
+        <Effect ref="0" name="On" id="14" startTime="126500" endTime="126600" palette="2"/>
+        <Effect ref="0" name="On" id="15" startTime="126700" endTime="126800" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteWindow4">
@@ -685,6 +693,15 @@
         <Effect ref="0" name="On" id="6" startTime="113300" endTime="113400" palette="2"/>
         <Effect ref="0" name="On" id="7" startTime="113500" endTime="113600" palette="2"/>
         <Effect ref="0" name="On" id="8" startTime="113700" endTime="113800" palette="2"/>
+        <Effect ref="0" name="On" id="9" startTime="125200" endTime="125300" palette="2"/>
+        <Effect ref="0" name="On" id="10" startTime="125400" endTime="125500" palette="2"/>
+        <Effect ref="0" name="On" id="11" startTime="125600" endTime="125700" palette="2"/>
+        <Effect ref="0" name="On" id="12" startTime="125800" endTime="125900" palette="2"/>
+        <Effect ref="0" name="On" id="13" startTime="126000" endTime="126100" palette="2"/>
+        <Effect ref="0" name="On" id="14" startTime="126200" endTime="126300" palette="2"/>
+        <Effect ref="0" name="On" id="15" startTime="126400" endTime="126500" palette="2"/>
+        <Effect ref="0" name="On" id="16" startTime="126600" endTime="126700" palette="2"/>
+        <Effect ref="0" name="On" id="17" startTime="126800" endTime="126900" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteTree2">
@@ -704,8 +721,10 @@
     </Element>
     <Element type="model" name="WhiteSign1">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="201300" palette="2"/>
-        <Effect ref="0" name="On" id="1" startTime="201300" endTime="201600" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="124300" palette="2"/>
+        <Effect ref="0" name="On" id="1" startTime="124300" endTime="128200" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="128200" endTime="201300" palette="2"/>
+        <Effect ref="0" name="On" id="3" startTime="201300" endTime="201600" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteSnowman1">
@@ -750,14 +769,6 @@
         <Effect ref="0" name="On" id="29" startTime="84200" endTime="84300" palette="2"/>
         <Effect ref="0" name="On" id="30" startTime="84400" endTime="84500" palette="2"/>
         <Effect ref="0" name="On" id="31" startTime="84600" endTime="84700" palette="2"/>
-        <Effect ref="0" name="On" id="32" startTime="125300" endTime="125400" palette="2"/>
-        <Effect ref="0" name="On" id="33" startTime="125500" endTime="125600" palette="2"/>
-        <Effect ref="0" name="On" id="34" startTime="125700" endTime="125800" palette="2"/>
-        <Effect ref="0" name="On" id="35" startTime="125900" endTime="126000" palette="2"/>
-        <Effect ref="0" name="On" id="36" startTime="126100" endTime="126200" palette="2"/>
-        <Effect ref="0" name="On" id="37" startTime="126300" endTime="126400" palette="2"/>
-        <Effect ref="0" name="On" id="38" startTime="126500" endTime="126600" palette="2"/>
-        <Effect ref="0" name="On" id="39" startTime="126700" endTime="126800" palette="2"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="RedTree1">
@@ -798,15 +809,6 @@
         <Effect ref="0" name="On" id="33" startTime="84300" endTime="84400" palette="2"/>
         <Effect ref="0" name="On" id="34" startTime="84500" endTime="84600" palette="2"/>
         <Effect ref="0" name="On" id="35" startTime="84700" endTime="84800" palette="2"/>
-        <Effect ref="0" name="On" id="36" startTime="125200" endTime="125300" palette="2"/>
-        <Effect ref="0" name="On" id="37" startTime="125400" endTime="125500" palette="2"/>
-        <Effect ref="0" name="On" id="38" startTime="125600" endTime="125700" palette="2"/>
-        <Effect ref="0" name="On" id="39" startTime="125800" endTime="125900" palette="2"/>
-        <Effect ref="0" name="On" id="40" startTime="126000" endTime="126100" palette="2"/>
-        <Effect ref="0" name="On" id="41" startTime="126200" endTime="126300" palette="2"/>
-        <Effect ref="0" name="On" id="42" startTime="126400" endTime="126500" palette="2"/>
-        <Effect ref="0" name="On" id="43" startTime="126600" endTime="126700" palette="2"/>
-        <Effect ref="0" name="On" id="44" startTime="126800" endTime="126900" palette="2"/>
       </EffectLayer>
     </Element>
   </ElementEffects>

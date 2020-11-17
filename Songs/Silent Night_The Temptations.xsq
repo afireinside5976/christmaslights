@@ -528,7 +528,7 @@
         <Effect ref="0" name="On" id="22" startTime="121100" endTime="121400" palette="0"/>
         <Effect ref="0" name="On" id="23" startTime="121500" endTime="122400" palette="0"/>
         <Effect ref="0" name="On" id="24" startTime="122400" endTime="123800" palette="0"/>
-        <Effect ref="0" name="On" selected="1" id="25" startTime="124200" endTime="126800" palette="0"/>
+        <Effect ref="0" name="On" id="25" startTime="124200" endTime="126800" palette="0"/>
         <Effect ref="1" name="On" id="26" startTime="126800" endTime="128400" palette="0"/>
         <Effect ref="0" name="On" id="27" startTime="129700" endTime="130500" palette="0"/>
         <Effect ref="0" name="On" id="28" startTime="131100" endTime="132300" palette="0"/>

@@ -30,6 +30,7 @@ The songs below are synchronized to the lights and play during [show times](#sho
 * 20th Century Fox Theme (00:20)
 * Christmas Time Is Party Time - Luke (03:21)
 * Christmas Eve/Sarajevo - Trans-Siberian Orchestra (03:24)
+* What You Want For Christmas - Quad City DJs and K-nock (04:35)
 * Silent Night - The Temptations (06:16)
 
 ### Offline Playlist
@@ -63,7 +64,10 @@ All of the lights are LED. Only two colors are used for the light show, white an
 ### Relays
 
 All of the relays are Solid State Relays (SSR). SSRs were used because they have no mechanical or moving
-parts and having greater reliability for being switched on and off frequently.
+parts and having greater reliability for being switched on and off frequently. 
+
+Mechanical relays heat up from switching on an off. When done repeatedly, like during a song, the relay can
+actually over heat and self-destruct.
 
 ### FM Transmission
 
@@ -86,7 +90,7 @@ show data files, music files, and scheduling are all connected within this softw
 ### Kdenlive
 
 Kdenlive is a video editing tool. It can also be used to modify audio files. The show intro audio file was
-modified with Kdenlive to have the voiceover and background music on the same track.
+modified with Kdenlive to have the voice over and background music on the same track.
 
 ## Resources
 

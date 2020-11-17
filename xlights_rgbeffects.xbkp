@@ -90,8 +90,8 @@
     <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow2,WhiteWindow3" name="WindowsMiddle"/>
     <modelGroup selected="0" name="Random1" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow3,WhiteTree1"/>
     <modelGroup selected="0" name="Random2" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow2,WhiteWindow4,WhiteTree2"/>
-    <modelGroup selected="0" name="Countdown12" models="" layout="minimalGrid" GridSize="400" LayoutGroup="Default"/>
-    <modelGroup selected="0" name="Countdown11" models="" layout="minimalGrid" GridSize="400" LayoutGroup="Default"/>
+    <modelGroup selected="0" name="Countdown12" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,WhiteWindow5,WhiteWindow6"/>
+    <modelGroup selected="0" name="Countdown11" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteSnowman1,WhiteTree1,WhiteTree2,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,WhiteWindow5"/>
     <modelGroup selected="0" name="Random3" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteTree1,WhiteTree2,WhiteWindow2,WhiteWindow3"/>
     <modelGroup selected="0" name="Random4" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4" GridSize="400" layout="grid"/>
     <modelGroup selected="0" name="HouseFront" LayoutGroup="Default" models="WhiteColumn1,WhiteColumn2,WhiteColumn3,WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4,WhiteWindow5,WhiteWindow6" GridSize="400" XCentreOffset="0" YCentreOffset="-1" layout="minimalGrid"/>

@@ -1,10 +1,5 @@
 # Christmas Lights
 
-## Xlights
-
-This repo contains sequences that I have created using Xlights. These sequences are for AC lights. 
-I do not store songs in the repository due to copyright concerns.
-
-## Documentation
-
-Website contains documentation for Christmas Light Show.
+This repository contains the backup files for my XLights configuration and sequences and the 
+documentation for the show. Website can be accessed at 
+[https://almostengr.github.io/christmaslights](https://almostengr.github.io/christmaslights).
