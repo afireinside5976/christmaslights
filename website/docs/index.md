@@ -18,7 +18,7 @@ another evening after the rain has cleared.
 ### Listen From Your Car
 
 To listen to the light show, tune your radio to 90.3 FM.
-It is asked that you keep your radio volume down to not disturb the neighbors and that you and your
+It is asked that you keep your radio volume down to not disturb the neighbors and 
 passengers remain in your vehicle to observe social distancing guidelines and for your safety.
 
 ### Show Playlist
@@ -101,6 +101,7 @@ Below are links to other websites and reference documentation that was used to b
 * <a href="http://www.lightinguppaxton.com/" target="_blank">Lighting Up Paxton</a>
 * <a href="https://sites.google.com/site/listentoourlights/home" target="_blank">Listen To Our Lights</a>
 * <a href="http://www.mosslights.com" target="_blank">Moss Lights</a>
+* <a href="http://www.thechristmaslightshow.com/" target="_blank">The Christmas Light Show</a>
 
 ### Resources and Other Information
 

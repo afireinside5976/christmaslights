@@ -115,7 +115,7 @@
     </Element>
     <Element type="model" name="WhiteColumns">
       <EffectLayer>
-        <Effect ref="0" name="On" selected="1" startTime="16200" endTime="16300" palette="0"/>
+        <Effect ref="0" name="On" startTime="16200" endTime="16300" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="16300" endTime="19900" palette="0"/>
       </EffectLayer>
     </Element>
