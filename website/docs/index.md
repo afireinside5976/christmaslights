@@ -92,6 +92,14 @@ show data files, music files, and scheduling are all connected within this softw
 Kdenlive is a video editing tool. It can also be used to modify audio files. The show intro audio file was
 modified with Kdenlive to have the voice over and background music on the same track.
 
+## Pictures
+
+Coming soon. 
+
+## Videos
+
+Coming soon.
+
 ## Resources
 
 Below are links to other websites and reference documentation that was used to build this light show.
@@ -99,6 +107,7 @@ Below are links to other websites and reference documentation that was used to b
 ### Light Show Websites
 
 * <a href="http://www.lightinguppaxton.com/" target="_blank">Lighting Up Paxton</a>
+* <a href="https://www.lightstoabeat.com" target="_blank">Lights To A Beat</a>
 * <a href="https://sites.google.com/site/listentoourlights/home" target="_blank">Listen To Our Lights</a>
 * <a href="http://www.mosslights.com" target="_blank">Moss Lights</a>
 * <a href="http://www.thechristmaslightshow.com/" target="_blank">The Christmas Light Show</a>
