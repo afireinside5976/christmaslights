@@ -25,7 +25,7 @@ passengers remain in your vehicle to observe social distancing guidelines and fo
 
 The songs below are synchronized to the lights and play during [show times](#show-times-and-dates) on loop.
 
-* Show Introduction (00:45)
+* Show Introduction (01:49)
 * Boyz II Men Countdown (00:10)
 * 20th Century Fox Theme (00:20)
 * Christmas Time Is Party Time - Luke (03:21)
