@@ -111,6 +111,7 @@ Below are links to other websites and reference documentation that was used to b
 * <a href="https://sites.google.com/site/listentoourlights/home" target="_blank">Listen To Our Lights</a>
 * <a href="http://www.mosslights.com" target="_blank">Moss Lights</a>
 * <a href="http://www.thechristmaslightshow.com/" target="_blank">The Christmas Light Show</a>
+* <a href="https://tzchristmas.com" target="_blank">Thyno Zgouvas' Christmas Wonderland</a>
 
 ### Resources and Other Information
 

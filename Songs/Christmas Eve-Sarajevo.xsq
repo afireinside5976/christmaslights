@@ -28,6 +28,8 @@
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=13.8</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=To Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Bounce,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -175,22 +177,22 @@
         <Effect ref="0" name="On" id="8" startTime="76250" endTime="78100" palette="0"/>
         <Effect ref="0" name="On" id="9" startTime="78100" endTime="79050" palette="0"/>
         <Effect ref="0" name="On" id="10" startTime="79050" endTime="79600" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="91100" endTime="139900" palette="0"/>
-        <Effect ref="0" name="On" id="16" startTime="139900" endTime="144800" palette="0"/>
-        <Effect ref="0" name="On" id="17" startTime="149950" endTime="150750" palette="0"/>
-        <Effect ref="0" name="On" id="18" startTime="151850" endTime="152650" palette="0"/>
-        <Effect ref="0" name="On" id="19" startTime="152900" endTime="153700" palette="0"/>
-        <Effect ref="0" name="On" id="20" startTime="153950" endTime="154750" palette="0"/>
-        <Effect ref="0" name="On" id="21" startTime="154850" endTime="155650" palette="0"/>
-        <Effect ref="0" name="On" id="22" startTime="155800" endTime="155850" palette="0"/>
-        <Effect ref="0" name="On" id="23" startTime="155850" endTime="156600" palette="0"/>
-        <Effect ref="0" name="On" id="24" startTime="156750" endTime="160200" palette="0"/>
-        <Effect ref="0" name="On" id="25" startTime="186700" endTime="187450" palette="0"/>
-        <Effect ref="0" name="On" id="26" startTime="187450" endTime="188700" palette="0"/>
-        <Effect ref="0" name="On" id="27" startTime="188700" endTime="191550" palette="0"/>
-        <Effect ref="0" name="On" id="28" startTime="191550" endTime="198650" palette="0"/>
-        <Effect ref="0" name="On" id="29" startTime="198650" endTime="204100" palette="0"/>
-        <Effect ref="0" name="On" id="30" startTime="204100" endTime="205300" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="91100" endTime="118050" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="141350" endTime="144000" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="149950" endTime="150750" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="151850" endTime="152650" palette="0"/>
+        <Effect ref="0" name="On" id="15" startTime="152900" endTime="153700" palette="0"/>
+        <Effect ref="0" name="On" id="16" startTime="153950" endTime="154750" palette="0"/>
+        <Effect ref="0" name="On" id="17" startTime="154850" endTime="155650" palette="0"/>
+        <Effect ref="0" name="On" id="18" startTime="155800" endTime="155850" palette="0"/>
+        <Effect ref="0" name="On" id="19" startTime="155850" endTime="156600" palette="0"/>
+        <Effect ref="0" name="On" id="20" startTime="156750" endTime="160200" palette="0"/>
+        <Effect ref="0" name="On" id="21" startTime="186700" endTime="187450" palette="0"/>
+        <Effect ref="0" name="On" id="22" startTime="187450" endTime="188700" palette="0"/>
+        <Effect ref="0" name="On" id="23" startTime="188700" endTime="191550" palette="0"/>
+        <Effect ref="0" name="On" id="24" startTime="191550" endTime="198650" palette="0"/>
+        <Effect ref="0" name="On" id="25" startTime="198650" endTime="204100" palette="0"/>
+        <Effect ref="0" name="On" id="26" startTime="204100" endTime="205300" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="RedTrees">
@@ -216,7 +218,7 @@
         <Effect ref="0" name="On" id="18" startTime="52450" endTime="54350" palette="0"/>
         <Effect ref="0" name="On" id="19" startTime="91100" endTime="94400" palette="0"/>
         <Effect ref="0" name="On" id="20" startTime="94400" endTime="94550" palette="0"/>
-        <Effect ref="0" name="On" id="22" startTime="184750" endTime="185750" palette="0"/>
+        <Effect ref="0" name="On" id="21" startTime="184750" endTime="185750" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteAll">
@@ -418,10 +420,10 @@
         <Effect ref="2" name="SingleStrand" id="4" startTime="147000" endTime="148700" palette="1"/>
         <Effect ref="2" name="SingleStrand" id="5" startTime="160550" endTime="162550" palette="1"/>
         <Effect ref="2" name="SingleStrand" id="6" startTime="162550" endTime="164250" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="7" startTime="164250" endTime="165200" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="8" startTime="165200" endTime="166150" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="9" startTime="166150" endTime="167100" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="10" startTime="167100" endTime="168050" palette="1"/>
+        <Effect ref="5" name="SingleStrand" selected="1" id="7" startTime="164250" endTime="165200" palette="1"/>
+        <Effect ref="5" name="SingleStrand" id="8" startTime="165200" endTime="166150" palette="1"/>
+        <Effect ref="6" name="SingleStrand" id="9" startTime="166150" endTime="167100" palette="1"/>
+        <Effect ref="6" name="SingleStrand" id="10" startTime="167100" endTime="168050" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WindowsLeft">

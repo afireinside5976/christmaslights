@@ -26,8 +26,10 @@
     <Effect></Effect>
     <Effect>E_CHECKBOX_On_Shimmer=1</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=16.2</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=1,E_CHOICE_Chase_Type1=Bounce from Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=16.2</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=20.0</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=38,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=20.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Bounce,E_CHOICE_SingleStrand_Colors=Rainbow,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=16.2</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -62,6 +64,7 @@
     <Element collapsed="0" type="model" name="WhiteRightSide" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteTrees" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteWindows" visible="1"/>
+    <Element collapsed="0" type="model" name="WindowsGroundLevel" visible="1"/>
     <Element collapsed="0" type="model" name="WindowsLeft" visible="1"/>
     <Element collapsed="0" type="model" name="WindowsMiddle" visible="1"/>
     <Element collapsed="0" type="model" name="WindowsRight" visible="1"/>
@@ -178,84 +181,83 @@
         <Effect ref="2" name="SingleStrand" startTime="10950" endTime="25350" palette="1"/>
         <Effect ref="0" name="On" id="1" startTime="86100" endTime="86750" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="86750" endTime="87200" palette="0"/>
-        <Effect ref="2" name="SingleStrand" id="3" startTime="177200" endTime="191600" palette="1"/>
-        <Effect ref="2" name="SingleStrand" id="4" startTime="191600" endTime="206000" palette="1"/>
-        <Effect ref="2" name="SingleStrand" id="5" startTime="206000" endTime="220400" palette="1"/>
+        <Effect ref="2" name="SingleStrand" id="3" startTime="177200" endTime="191300" palette="1"/>
+        <Effect ref="3" name="SingleStrand" selected="1" id="5" startTime="206000" endTime="220400" palette="1"/>
         <Effect ref="2" name="SingleStrand" id="6" startTime="220400" endTime="234800" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="7" startTime="235200" endTime="239950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="8" startTime="239950" endTime="244700" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="9" startTime="244700" endTime="249450" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="10" startTime="249450" endTime="254200" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="11" startTime="254200" endTime="258950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="12" startTime="258950" endTime="264500" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="7" startTime="235200" endTime="239950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="8" startTime="239950" endTime="244700" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="9" startTime="244700" endTime="249450" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="10" startTime="249450" endTime="254200" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="11" startTime="254200" endTime="258950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="12" startTime="258950" endTime="264500" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Random1">
       <EffectLayer>
-        <Effect ref="3" name="SingleStrand" startTime="25350" endTime="29150" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="1" startTime="32950" endTime="36750" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="2" startTime="40550" endTime="44350" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="3" startTime="48150" endTime="51950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="4" startTime="55750" endTime="59550" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="5" startTime="123550" endTime="128300" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="6" startTime="133050" endTime="137800" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="7" startTime="142550" endTime="147300" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="8" startTime="235200" endTime="239950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="9" startTime="239950" endTime="244700" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="10" startTime="244700" endTime="249450" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="11" startTime="249450" endTime="254200" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="12" startTime="254200" endTime="258950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="13" startTime="258950" endTime="264500" palette="1"/>
+        <Effect ref="4" name="SingleStrand" startTime="25350" endTime="29150" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="1" startTime="32950" endTime="36750" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="2" startTime="40550" endTime="44350" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="3" startTime="48150" endTime="51950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="4" startTime="55750" endTime="59550" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="5" startTime="123550" endTime="128300" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="6" startTime="133050" endTime="137800" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="7" startTime="142550" endTime="147300" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="8" startTime="235200" endTime="239950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="9" startTime="239950" endTime="244700" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="10" startTime="244700" endTime="249450" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="11" startTime="249450" endTime="254200" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="12" startTime="254200" endTime="258950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="13" startTime="258950" endTime="264500" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Random2">
       <EffectLayer>
-        <Effect ref="3" name="SingleStrand" startTime="29150" endTime="32950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="1" startTime="36750" endTime="40550" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="2" startTime="44350" endTime="48150" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="3" startTime="51950" endTime="55750" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="4" startTime="59550" endTime="60100" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="5" startTime="116300" endTime="121050" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="6" startTime="128300" endTime="133050" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="7" startTime="137800" endTime="142550" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="8" startTime="147300" endTime="152050" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="9" startTime="235200" endTime="239950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="10" startTime="239950" endTime="244700" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="11" startTime="244700" endTime="249450" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="12" startTime="249450" endTime="254200" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="13" startTime="254200" endTime="258950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="14" startTime="258950" endTime="264500" palette="1"/>
+        <Effect ref="4" name="SingleStrand" startTime="29150" endTime="32950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="1" startTime="36750" endTime="40550" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="2" startTime="44350" endTime="48150" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="3" startTime="51950" endTime="55750" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="4" startTime="59550" endTime="60100" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="5" startTime="116300" endTime="121050" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="6" startTime="128300" endTime="133050" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="7" startTime="137800" endTime="142550" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="8" startTime="147300" endTime="152050" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="9" startTime="235200" endTime="239950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="10" startTime="239950" endTime="244700" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="11" startTime="244700" endTime="249450" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="12" startTime="249450" endTime="254200" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="13" startTime="254200" endTime="258950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="14" startTime="258950" endTime="264500" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Random3">
       <EffectLayer>
-        <Effect ref="3" name="SingleStrand" startTime="25350" endTime="29150" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="1" startTime="32950" endTime="36750" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="2" startTime="40550" endTime="44350" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="3" startTime="48150" endTime="51950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="4" startTime="55750" endTime="59550" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="5" startTime="123550" endTime="128300" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="6" startTime="133050" endTime="137800" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="7" startTime="142550" endTime="147300" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="8" startTime="235200" endTime="239950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="9" startTime="239950" endTime="244700" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="10" startTime="244700" endTime="249450" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="11" startTime="249450" endTime="254200" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="12" startTime="254200" endTime="258950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="13" startTime="258950" endTime="264500" palette="1"/>
+        <Effect ref="4" name="SingleStrand" startTime="25350" endTime="29150" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="1" startTime="32950" endTime="36750" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="2" startTime="40550" endTime="44350" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="3" startTime="48150" endTime="51950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="4" startTime="55750" endTime="59550" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="5" startTime="123550" endTime="128300" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="6" startTime="133050" endTime="137800" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="7" startTime="142550" endTime="147300" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="8" startTime="235200" endTime="239950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="9" startTime="239950" endTime="244700" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="10" startTime="244700" endTime="249450" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="11" startTime="249450" endTime="254200" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="12" startTime="254200" endTime="258950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="13" startTime="258950" endTime="264500" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Random4">
       <EffectLayer>
-        <Effect ref="3" name="SingleStrand" startTime="29150" endTime="32950" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="1" startTime="36750" endTime="40550" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="2" startTime="44350" endTime="48150" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="3" startTime="51950" endTime="55750" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="4" startTime="59550" endTime="60100" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="5" startTime="116300" endTime="121050" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="6" startTime="128300" endTime="133050" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="7" startTime="137800" endTime="142550" palette="1"/>
-        <Effect ref="3" name="SingleStrand" id="8" startTime="147300" endTime="152050" palette="1"/>
+        <Effect ref="4" name="SingleStrand" startTime="29150" endTime="32950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="1" startTime="36750" endTime="40550" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="2" startTime="44350" endTime="48150" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="3" startTime="51950" endTime="55750" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="4" startTime="59550" endTime="60100" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="5" startTime="116300" endTime="121050" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="6" startTime="128300" endTime="133050" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="7" startTime="137800" endTime="142550" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="8" startTime="147300" endTime="152050" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="RedAll">
@@ -353,12 +355,17 @@
     </Element>
     <Element type="model" name="WhiteTrees">
       <EffectLayer>
-        <Effect ref="4" name="SingleStrand" startTime="101700" endTime="114450" palette="1"/>
+        <Effect ref="5" name="SingleStrand" startTime="101700" endTime="114450" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteWindows">
       <EffectLayer>
-        <Effect ref="4" name="SingleStrand" startTime="87200" endTime="114450" palette="1"/>
+        <Effect ref="5" name="SingleStrand" startTime="87200" endTime="114450" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WindowsGroundLevel">
+      <EffectLayer>
+        <Effect ref="6" name="SingleStrand" startTime="191400" endTime="206000" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WindowsLeft">
