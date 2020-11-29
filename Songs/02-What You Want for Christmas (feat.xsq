@@ -35,9 +35,7 @@
     <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="0"/>
-    <Element collapsed="0" type="timing" name="50ms" visible="1" views="" active="1"/>
-    <Element collapsed="0" type="model" name="Countdown1" visible="1"/>
+    <Element collapsed="0" type="timing" name="50ms" visible="1" views="" active="0"/>
     <Element collapsed="0" type="model" name="Countdown2" visible="1"/>
     <Element collapsed="0" type="model" name="Countdown3" visible="1"/>
     <Element collapsed="0" type="model" name="Countdown4" visible="1"/>
@@ -54,13 +52,11 @@
     <Element collapsed="0" type="model" name="Random2" visible="1"/>
     <Element collapsed="0" type="model" name="Random3" visible="1"/>
     <Element collapsed="0" type="model" name="Random4" visible="1"/>
-    <Element collapsed="0" type="model" name="RedAll" visible="1"/>
     <Element collapsed="0" type="model" name="RedSpotlights" visible="1"/>
     <Element collapsed="0" type="model" name="RedTrees" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteAll" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteColumns" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteLeftSide" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteOuterColumns" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteRightSide" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteTrees" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteWindows" visible="1"/>
@@ -69,31 +65,11 @@
     <Element collapsed="0" type="model" name="WindowsMiddle" visible="1"/>
     <Element collapsed="0" type="model" name="WindowsRight" visible="1"/>
     <Element collapsed="0" type="model" name="WindowsSecondLevel" visible="1"/>
-    <Element collapsed="0" type="model" name="RedSpotlight1" visible="1"/>
-    <Element collapsed="0" type="model" name="RedSpotlight2" visible="1"/>
-    <Element collapsed="0" type="model" name="RedSpotlight3" visible="1"/>
-    <Element collapsed="0" type="model" name="RedTree1" visible="1"/>
-    <Element collapsed="0" type="model" name="RedTree2" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteColumn1" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteColumn2" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteColumn3" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteSign1" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteSnowman1" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteWindow1" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteWindow2" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteWindow3" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteWindow4" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteWindow5" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteWindow6" visible="1"/>
   </DisplayElements>
   <ElementEffects>
-    <Element type="timing" name="New Timing">
-      <EffectLayer/>
-    </Element>
     <Element type="timing" name="50ms" fixed="50">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Countdown1">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Countdown2">
@@ -182,14 +158,14 @@
         <Effect ref="0" name="On" id="1" startTime="86100" endTime="86750" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="86750" endTime="87200" palette="0"/>
         <Effect ref="2" name="SingleStrand" id="3" startTime="177200" endTime="191300" palette="1"/>
-        <Effect ref="3" name="SingleStrand" selected="1" id="5" startTime="206000" endTime="220400" palette="1"/>
-        <Effect ref="2" name="SingleStrand" id="6" startTime="220400" endTime="234800" palette="1"/>
-        <Effect ref="4" name="SingleStrand" id="7" startTime="235200" endTime="239950" palette="1"/>
-        <Effect ref="4" name="SingleStrand" id="8" startTime="239950" endTime="244700" palette="1"/>
-        <Effect ref="4" name="SingleStrand" id="9" startTime="244700" endTime="249450" palette="1"/>
-        <Effect ref="4" name="SingleStrand" id="10" startTime="249450" endTime="254200" palette="1"/>
-        <Effect ref="4" name="SingleStrand" id="11" startTime="254200" endTime="258950" palette="1"/>
-        <Effect ref="4" name="SingleStrand" id="12" startTime="258950" endTime="264500" palette="1"/>
+        <Effect ref="3" name="SingleStrand" id="4" startTime="206000" endTime="220400" palette="1"/>
+        <Effect ref="2" name="SingleStrand" id="5" startTime="220400" endTime="234800" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="6" startTime="235200" endTime="239950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="7" startTime="239950" endTime="244700" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="8" startTime="244700" endTime="249450" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="9" startTime="249450" endTime="254200" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="10" startTime="254200" endTime="258950" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="11" startTime="258950" endTime="264500" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Random1">
@@ -259,9 +235,6 @@
         <Effect ref="4" name="SingleStrand" id="7" startTime="137800" endTime="142550" palette="1"/>
         <Effect ref="4" name="SingleStrand" id="8" startTime="147300" endTime="152050" palette="1"/>
       </EffectLayer>
-    </Element>
-    <Element type="model" name="RedAll">
-      <EffectLayer/>
     </Element>
     <Element type="model" name="RedSpotlights">
       <EffectLayer>
@@ -343,9 +316,6 @@
         <Effect ref="0" name="On" startTime="114950" endTime="115100" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="115800" endTime="115950" palette="0"/>
       </EffectLayer>
-    </Element>
-    <Element type="model" name="WhiteOuterColumns">
-      <EffectLayer/>
     </Element>
     <Element type="model" name="WhiteRightSide">
       <EffectLayer>
@@ -562,33 +532,6 @@
         <Effect ref="0" name="On" id="166" startTime="152300" endTime="152400" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="RedSpotlight1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="RedSpotlight2">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="RedSpotlight3">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="RedTree1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="RedTree2">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteColumn1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteColumn2">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteColumn3">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteSign1">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="WhiteSnowman1">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="2950" endTime="3150" palette="0"/>
@@ -603,27 +546,12 @@
         <Effect ref="0" name="On" id="9" startTime="175150" endTime="176700" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="WhiteWindow1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteWindow2">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteWindow3">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="WhiteWindow4">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="83100" endTime="85250" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="85250" endTime="86050" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="86050" endTime="86100" palette="0"/>
       </EffectLayer>
-    </Element>
-    <Element type="model" name="WhiteWindow5">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteWindow6">
-      <EffectLayer/>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>

@@ -43,19 +43,7 @@
     <Element collapsed="0" type="model" name="Countdown10" visible="1"/>
     <Element collapsed="0" type="model" name="RedSpotlights" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteAll" visible="1"/>
-    <Element collapsed="0" type="model" name="RedTree1" visible="1"/>
-    <Element collapsed="0" type="model" name="RedTree2" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteColumn1" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteColumn2" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteColumn3" visible="1"/>
     <Element collapsed="0" type="model" name="WhiteSign1" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteSnowman1" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteTree1" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteTree2" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteWindow1" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteWindow2" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteWindow3" visible="1"/>
-    <Element collapsed="0" type="model" name="WhiteWindow4" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -124,46 +112,10 @@
         <Effect ref="0" name="On" startTime="0" endTime="110400" palette="1"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="RedTree1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="RedTree2">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteColumn1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteColumn2">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteColumn3">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="WhiteSign1">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="119800" palette="1"/>
       </EffectLayer>
-    </Element>
-    <Element type="model" name="WhiteSnowman1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteTree1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteTree2">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteWindow1">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteWindow2">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteWindow3">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="WhiteWindow4">
-      <EffectLayer/>
     </Element>
   </ElementEffects>
   <lastView>0</lastView>

@@ -35,7 +35,6 @@
     <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="0"/>
     <Element collapsed="0" type="timing" name="50ms" visible="1" views="" active="0"/>
     <Element collapsed="0" type="model" name="AllLights" visible="1"/>
     <Element collapsed="0" type="model" name="HouseFront" visible="1"/>
@@ -64,9 +63,6 @@
     <Element collapsed="0" type="model" name="WhiteWindow4" visible="1"/>
   </DisplayElements>
   <ElementEffects>
-    <Element type="timing" name="New Timing">
-      <EffectLayer/>
-    </Element>
     <Element type="timing" name="50ms" fixed="50">
       <EffectLayer/>
     </Element>
@@ -420,7 +416,7 @@
         <Effect ref="2" name="SingleStrand" id="4" startTime="147000" endTime="148700" palette="1"/>
         <Effect ref="2" name="SingleStrand" id="5" startTime="160550" endTime="162550" palette="1"/>
         <Effect ref="2" name="SingleStrand" id="6" startTime="162550" endTime="164250" palette="1"/>
-        <Effect ref="5" name="SingleStrand" selected="1" id="7" startTime="164250" endTime="165200" palette="1"/>
+        <Effect ref="5" name="SingleStrand" id="7" startTime="164250" endTime="165200" palette="1"/>
         <Effect ref="5" name="SingleStrand" id="8" startTime="165200" endTime="166150" palette="1"/>
         <Effect ref="6" name="SingleStrand" id="9" startTime="166150" endTime="167100" palette="1"/>
         <Effect ref="6" name="SingleStrand" id="10" startTime="167100" endTime="168050" palette="1"/>
@@ -444,6 +440,13 @@
         <Effect ref="0" name="On" id="3" startTime="109400" endTime="110300" palette="0"/>
         <Effect ref="0" name="On" id="4" startTime="112300" endTime="114200" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="116150" endTime="118050" palette="0"/>
+        <Effect ref="1" name="On" id="6" startTime="133650" endTime="133700" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="133700" endTime="133900" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="134550" endTime="134850" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="135500" endTime="135850" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="136500" endTime="136700" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="136850" endTime="137050" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="137150" endTime="137350" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WindowsRight">
