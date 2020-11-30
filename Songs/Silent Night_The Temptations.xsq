@@ -171,8 +171,7 @@
         <Effect ref="0" name="On" id="15" startTime="306600" endTime="308200" palette="0"/>
         <Effect ref="0" name="On" id="16" startTime="309800" endTime="311100" palette="0"/>
         <Effect ref="0" name="On" id="17" startTime="311100" endTime="313700" palette="0"/>
-        <Effect ref="0" name="On" id="18" startTime="356200" endTime="360300" palette="0"/>
-        <Effect ref="0" name="On" id="19" startTime="360300" endTime="365900" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="18" startTime="356200" endTime="400750" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="RedTrees">
