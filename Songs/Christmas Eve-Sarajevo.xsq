@@ -67,10 +67,7 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="AllLights">
-      <EffectLayer>
-        <Effect ref="0" name="On" startTime="187650" endTime="188450" palette="0"/>
-        <Effect ref="0" name="On" id="1" startTime="188450" endTime="191650" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="HouseFront">
       <EffectLayer>
@@ -269,6 +266,8 @@
         <Effect ref="1" name="On" id="47" startTime="158600" endTime="158900" palette="0"/>
         <Effect ref="1" name="On" id="48" startTime="159550" endTime="159850" palette="0"/>
         <Effect ref="4" name="SingleStrand" id="49" startTime="176100" endTime="183750" palette="1"/>
+        <Effect ref="0" name="On" id="50" startTime="187650" endTime="188450" palette="0"/>
+        <Effect ref="0" name="On" id="51" startTime="188450" endTime="191650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="WhiteColumns">
