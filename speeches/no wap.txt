@@ -1,0 +1,19 @@
+voice: Kendra volume: loud Whoa whoa whoa... wait one minute
+create add clear
+voice: Joey What?
+create add clear
+voice: Kendra You can't play that song.
+create add clear
+voice: Joey What's wrong with that song?
+create add clear
+voice: Kendra A lot, and I do mean a lot is wrong with that song. Not to mention, it has nothing, nan, nada, zero, to do with Christmas. Unless you have a remix of that song called Wrapping And Presents, you need to play something else.
+create add clear
+voice: Joey Wrapping And Presents? That's not what wop means.
+create add clear
+voice: Kendra I know that's not what wop means. Even more reason why you cannot play that song. For goodness sake, children might be watching this light show.
+create add clear
+voice: Joey rate: slow children? At a light show?
+create add clear
+voice: Kendra Yes, children. At a light show.
+create add clear
+voice: Joey rate: slow Alright then. I'll play something else.
