@@ -98,6 +98,8 @@
     <modelGroup selected="0" name="WindowsCapeCod" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2,WhiteWindow5,WhiteWindow6"/>
     <modelGroup selected="0" name="WindowsGroundLevel" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
     <modelGroup selected="0" name="WindowsSecondLevel" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow5,WhiteWindow6"/>
+    <modelGroup selected="0" name="WhiteWindowOdd" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow3,WhiteWindow5" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="WhiteWindowEven" LayoutGroup="Default" models="WhiteWindow2,WhiteWindow4,WhiteWindow6" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">

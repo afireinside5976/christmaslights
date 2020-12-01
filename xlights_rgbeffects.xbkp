@@ -98,6 +98,7 @@
     <modelGroup selected="0" name="WindowsCapeCod" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2,WhiteWindow5,WhiteWindow6"/>
     <modelGroup selected="0" name="WindowsGroundLevel" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow1,WhiteWindow2,WhiteWindow3,WhiteWindow4"/>
     <modelGroup selected="0" name="WindowsSecondLevel" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="WhiteWindow5,WhiteWindow6"/>
+    <modelGroup selected="0" name="WhiteWindowOdd" models="" layout="minimalGrid" GridSize="400" LayoutGroup="Default"/>
   </modelGroups>
   <layoutGroups/>
   <perspectives current="Default Perspective">
